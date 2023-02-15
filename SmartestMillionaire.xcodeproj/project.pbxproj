@@ -13,6 +13,24 @@
 		9B0F9E5D299D1E8100CAEFE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E5B299D1E8100CAEFE3 /* Main.storyboard */; };
 		9B0F9E5F299D1E8300CAEFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E5E299D1E8300CAEFE3 /* Assets.xcassets */; };
 		9B0F9E62299D1E8300CAEFE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E60299D1E8300CAEFE3 /* LaunchScreen.storyboard */; };
+		9B0F9E73299D1EBD00CAEFE3 /* correctEasyAnswerSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E6A299D1EBC00CAEFE3 /* correctEasyAnswerSound.mp3 */; };
+		9B0F9E74299D1EBD00CAEFE3 /* incorrectAnswerSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E6B299D1EBC00CAEFE3 /* incorrectAnswerSound.mp3 */; };
+		9B0F9E75299D1EBD00CAEFE3 /* timeSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E6C299D1EBC00CAEFE3 /* timeSound.mp3 */; };
+		9B0F9E76299D1EBD00CAEFE3 /* millionWin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E6D299D1EBC00CAEFE3 /* millionWin.mp3 */; };
+		9B0F9E77299D1EBD00CAEFE3 /* takeMoneySound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E6E299D1EBC00CAEFE3 /* takeMoneySound.mp3 */; };
+		9B0F9E78299D1EBD00CAEFE3 /* correctAnswerSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E6F299D1EBC00CAEFE3 /* correctAnswerSound.mp3 */; };
+		9B0F9E79299D1EBD00CAEFE3 /* gameOverSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E70299D1EBD00CAEFE3 /* gameOverSound.mp3 */; };
+		9B0F9E7A299D1EBD00CAEFE3 /* fiveSecWaitAnswerSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E71299D1EBD00CAEFE3 /* fiveSecWaitAnswerSound.mp3 */; };
+		9B0F9E7B299D1EBD00CAEFE3 /* mainSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B0F9E72299D1EBD00CAEFE3 /* mainSound.mp3 */; };
+		9B0F9E7F299D1F5B00CAEFE3 /* QiestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9E7E299D1F5B00CAEFE3 /* QiestionModel.swift */; };
+		9B0F9E81299D1F6A00CAEFE3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9E80299D1F6A00CAEFE3 /* Question.swift */; };
+		9B0F9E83299D1F7D00CAEFE3 /* GameControllerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9E82299D1F7D00CAEFE3 /* GameControllerLogic.swift */; };
+		9B0F9E86299D1F9600CAEFE3 /* HintButtonLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9E85299D1F9600CAEFE3 /* HintButtonLogic.swift */; };
+		9B0F9E88299D1FAB00CAEFE3 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9E87299D1FAB00CAEFE3 /* QuestionViewController.swift */; };
+		9B0F9E8A299D1FC600CAEFE3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9E89299D1FC600CAEFE3 /* ResultViewController.swift */; };
+		9B0F9E8C299D1FDA00CAEFE3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9E8B299D1FDA00CAEFE3 /* GameViewController.swift */; };
+		9B0F9E8E299D1FEB00CAEFE3 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9E8D299D1FEB00CAEFE3 /* RulesViewController.swift */; };
+		9B0F9E90299D1FFF00CAEFE3 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F9E8F299D1FFF00CAEFE3 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +42,24 @@
 		9B0F9E5E299D1E8300CAEFE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B0F9E61299D1E8300CAEFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0F9E63299D1E8300CAEFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0F9E6A299D1EBC00CAEFE3 /* correctEasyAnswerSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correctEasyAnswerSound.mp3; sourceTree = "<group>"; };
+		9B0F9E6B299D1EBC00CAEFE3 /* incorrectAnswerSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrectAnswerSound.mp3; sourceTree = "<group>"; };
+		9B0F9E6C299D1EBC00CAEFE3 /* timeSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timeSound.mp3; sourceTree = "<group>"; };
+		9B0F9E6D299D1EBC00CAEFE3 /* millionWin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = millionWin.mp3; sourceTree = "<group>"; };
+		9B0F9E6E299D1EBC00CAEFE3 /* takeMoneySound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = takeMoneySound.mp3; sourceTree = "<group>"; };
+		9B0F9E6F299D1EBC00CAEFE3 /* correctAnswerSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correctAnswerSound.mp3; sourceTree = "<group>"; };
+		9B0F9E70299D1EBD00CAEFE3 /* gameOverSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOverSound.mp3; sourceTree = "<group>"; };
+		9B0F9E71299D1EBD00CAEFE3 /* fiveSecWaitAnswerSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fiveSecWaitAnswerSound.mp3; sourceTree = "<group>"; };
+		9B0F9E72299D1EBD00CAEFE3 /* mainSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mainSound.mp3; sourceTree = "<group>"; };
+		9B0F9E7E299D1F5B00CAEFE3 /* QiestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiestionModel.swift; sourceTree = "<group>"; };
+		9B0F9E80299D1F6A00CAEFE3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9B0F9E82299D1F7D00CAEFE3 /* GameControllerLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerLogic.swift; sourceTree = "<group>"; };
+		9B0F9E85299D1F9600CAEFE3 /* HintButtonLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintButtonLogic.swift; sourceTree = "<group>"; };
+		9B0F9E87299D1FAB00CAEFE3 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		9B0F9E89299D1FC600CAEFE3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9B0F9E8B299D1FDA00CAEFE3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9B0F9E8D299D1FEB00CAEFE3 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		9B0F9E8F299D1FFF00CAEFE3 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +92,57 @@
 		9B0F9E54299D1E8100CAEFE3 /* SmartestMillionaire */ = {
 			isa = PBXGroup;
 			children = (
+				9B0F9E7D299D1F3C00CAEFE3 /* Models */,
+				9B0F9E7C299D1F2F00CAEFE3 /* Views */,
 				9B0F9E55299D1E8100CAEFE3 /* AppDelegate.swift */,
 				9B0F9E57299D1E8100CAEFE3 /* SceneDelegate.swift */,
 				9B0F9E59299D1E8100CAEFE3 /* ViewController.swift */,
-				9B0F9E5B299D1E8100CAEFE3 /* Main.storyboard */,
 				9B0F9E5E299D1E8300CAEFE3 /* Assets.xcassets */,
+				9B0F9E5B299D1E8100CAEFE3 /* Main.storyboard */,
 				9B0F9E60299D1E8300CAEFE3 /* LaunchScreen.storyboard */,
 				9B0F9E63299D1E8300CAEFE3 /* Info.plist */,
+				9B0F9E69299D1EBC00CAEFE3 /* Sounds */,
 			);
 			path = SmartestMillionaire;
+			sourceTree = "<group>";
+		};
+		9B0F9E69299D1EBC00CAEFE3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9B0F9E6A299D1EBC00CAEFE3 /* correctEasyAnswerSound.mp3 */,
+				9B0F9E6B299D1EBC00CAEFE3 /* incorrectAnswerSound.mp3 */,
+				9B0F9E6C299D1EBC00CAEFE3 /* timeSound.mp3 */,
+				9B0F9E6D299D1EBC00CAEFE3 /* millionWin.mp3 */,
+				9B0F9E6E299D1EBC00CAEFE3 /* takeMoneySound.mp3 */,
+				9B0F9E6F299D1EBC00CAEFE3 /* correctAnswerSound.mp3 */,
+				9B0F9E70299D1EBD00CAEFE3 /* gameOverSound.mp3 */,
+				9B0F9E71299D1EBD00CAEFE3 /* fiveSecWaitAnswerSound.mp3 */,
+				9B0F9E72299D1EBD00CAEFE3 /* mainSound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		9B0F9E7C299D1F2F00CAEFE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B0F9E87299D1FAB00CAEFE3 /* QuestionViewController.swift */,
+				9B0F9E89299D1FC600CAEFE3 /* ResultViewController.swift */,
+				9B0F9E8B299D1FDA00CAEFE3 /* GameViewController.swift */,
+				9B0F9E8D299D1FEB00CAEFE3 /* RulesViewController.swift */,
+				9B0F9E8F299D1FFF00CAEFE3 /* StartViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B0F9E7D299D1F3C00CAEFE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B0F9E7E299D1F5B00CAEFE3 /* QiestionModel.swift */,
+				9B0F9E80299D1F6A00CAEFE3 /* Question.swift */,
+				9B0F9E82299D1F7D00CAEFE3 /* GameControllerLogic.swift */,
+				9B0F9E85299D1F9600CAEFE3 /* HintButtonLogic.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +204,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B0F9E62299D1E8300CAEFE3 /* LaunchScreen.storyboard in Resources */,
+				9B0F9E73299D1EBD00CAEFE3 /* correctEasyAnswerSound.mp3 in Resources */,
+				9B0F9E7A299D1EBD00CAEFE3 /* fiveSecWaitAnswerSound.mp3 in Resources */,
 				9B0F9E5F299D1E8300CAEFE3 /* Assets.xcassets in Resources */,
+				9B0F9E75299D1EBD00CAEFE3 /* timeSound.mp3 in Resources */,
+				9B0F9E74299D1EBD00CAEFE3 /* incorrectAnswerSound.mp3 in Resources */,
+				9B0F9E76299D1EBD00CAEFE3 /* millionWin.mp3 in Resources */,
+				9B0F9E78299D1EBD00CAEFE3 /* correctAnswerSound.mp3 in Resources */,
+				9B0F9E77299D1EBD00CAEFE3 /* takeMoneySound.mp3 in Resources */,
+				9B0F9E7B299D1EBD00CAEFE3 /* mainSound.mp3 in Resources */,
+				9B0F9E79299D1EBD00CAEFE3 /* gameOverSound.mp3 in Resources */,
 				9B0F9E5D299D1E8100CAEFE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +225,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0F9E8C299D1FDA00CAEFE3 /* GameViewController.swift in Sources */,
+				9B0F9E81299D1F6A00CAEFE3 /* Question.swift in Sources */,
 				9B0F9E5A299D1E8100CAEFE3 /* ViewController.swift in Sources */,
 				9B0F9E56299D1E8100CAEFE3 /* AppDelegate.swift in Sources */,
 				9B0F9E58299D1E8100CAEFE3 /* SceneDelegate.swift in Sources */,
+				9B0F9E90299D1FFF00CAEFE3 /* StartViewController.swift in Sources */,
+				9B0F9E88299D1FAB00CAEFE3 /* QuestionViewController.swift in Sources */,
+				9B0F9E83299D1F7D00CAEFE3 /* GameControllerLogic.swift in Sources */,
+				9B0F9E86299D1F9600CAEFE3 /* HintButtonLogic.swift in Sources */,
+				9B0F9E7F299D1F5B00CAEFE3 /* QiestionModel.swift in Sources */,
+				9B0F9E8E299D1FEB00CAEFE3 /* RulesViewController.swift in Sources */,
+				9B0F9E8A299D1FC600CAEFE3 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +389,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +418,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
